@@ -36,17 +36,19 @@ header nav li{
     margin:15px;
     border-radius:10px;
     padding:10px;
+    transition:.4s;
+}
+header nav li:hover{
+    transform:scale(1.3);
 }
 header nav a{
     text-decoration:none;
     font-size:1.2rem;
     color:white;
 }
-
 header nav a:hover{
     color:rgb(255, 106, 0);
 }
-
 
 #last-menu-item{
     margin-bottom: 30px;
@@ -286,7 +288,19 @@ footer p{
         transform:translate(-50%,-50%);
     }
 
+    .btn:hover{
+        transform:scale(1.2);
+    }
+
     /* banner section ends */
+
+    /* food-menu section starts */
+
+    .card:hover{
+        transform:scale(1.1);
+    }
+
+    /* food-menu section ends */
     
     /* contact section start */
     .map iframe{
@@ -330,6 +344,10 @@ footer p{
         background-color: transparent;
         margin-top:35px;
     }
+
+    header nav li:hover{
+        transform:scale(1.5);
+    }
     
     /* header ends */
 
@@ -344,6 +362,10 @@ footer p{
             top:50%;
             left:50%;
             transform:translate(-50%,-50%);
+        }
+
+        .btn:hover{
+            transform:scale(1.3);
         }
 
     /* banner ends  */
@@ -364,6 +386,9 @@ footer p{
     }
     footer .social-menu{
         text-align:right;
+    }
+    .social-menu a i:hover{
+        transform:scale(1.3);
     }
     /* footer ends */
 }
